@@ -1,0 +1,143 @@
+.siu-container{
+  padding-top: 2rem;
+
+}
+
+
+
+.auth-row {
+  display: flex;
+  padding-top: 3rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  align-items: center;
+
+}
+
+.col-md-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+
+}
+
+.siu-container h1 {
+  font-size: 3.5rem !important;
+  margin-bottom: 20px;
+  color: #388087;
+  align-items: center;
+
+
+}
+
+.auth-p{
+  font-size: 1rem !important;
+
+}
+
+.auth-custom-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-custom-row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.auth-custom-col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-right: 10px;
+}
+
+.auth-custom-input {
+  background-color: #f6f6f2;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.auth-custom-input:focus {
+  outline: none;
+  border-color: #388087;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.auth-btn {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #388087;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-btn:hover {
+  background-color: #6fb3b8;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.my-5 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signin-input {
+  background-color: #f6f6f2;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+
+  .auth-custom-card {
+    margin-top: 2em;
+  }
+
+  .auth-row {
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  /*.col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }*/
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .auth-row h1 {
+    font-size: 1.5rem;
+  }
+}

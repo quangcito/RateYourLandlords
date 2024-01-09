@@ -1,0 +1,53 @@
+.about-us-page {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius:10px;
+  background:#fff;
+
+}
+
+.about-us-page h2 {
+  color: #388087;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-weight:bold;
+
+}
+
+.about-us-page p {
+  margin-bottom: 20px;
+
+}
+
+.about-us-page .faq ul {
+  list-style-type: none;
+  padding-left: 0;
+  
+}
+
+.faq li p {
+  margin-bottom: 30px;
+  margin-top: 20px;
+
+}
+
+.faq strong{
+  font-weight:bold;
+}
+
+/* Styling for sections */
+.about-us,
+.faq,
+.privacy-policy,
+.revenue,
+.contribution {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+/* Additional styles specific to sections can be added here */

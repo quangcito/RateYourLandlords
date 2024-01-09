@@ -1,0 +1,65 @@
+  
+
+element.style {
+}
+.home-search {
+    height: 70vh;
+}
+
+  .introduction {
+    padding-bottom: 3rem;
+    
+  }
+  
+  .introduction h2 {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    font-weight: bold;
+    
+
+    
+  }
+  
+  .sign-up-text {
+    margin-bottom: 2rem;
+    font-weight: bold;
+    
+
+  }
+
+  .why-container {
+    display:flex;
+    margin-bottom: 6rem;
+    /* background-color: var(--color3); */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius:10px;
+    padding: 35px;
+    align-items: center;
+
+  }
+
+@media screen and (max-width: 768px) {
+    .home-search {
+      height: 50vh; 
+    }
+  
+    .introduction {
+    }
+  
+    .introduction h2 {
+      margin-top: 2rem; 
+      margin-bottom: 3rem; 
+      font-weight: bold;
+    }
+  
+    .sign-up-text {
+      margin-bottom: 1rem; 
+      font-weight: bold;
+    }
+  
+    .why-container {
+      display: block; 
+      margin-bottom: 4rem; 
+    }
+  }
+  
